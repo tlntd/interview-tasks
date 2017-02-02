@@ -37,7 +37,9 @@ b.getSurfaceArea() // -> 88
 
 Automate bingo card creation by creating an object with a method:
 
-```BingoCard.getCard()```
+```
+BingoCard.getCard()
+```
 
 A Bingo card contains 24 unique and random numbers according to this scheme:
 - 5 numbers from the B column in the range 1 to 15
@@ -48,7 +50,9 @@ A Bingo card contains 24 unique and random numbers according to this scheme:
 
 The card must be returned as an array of Bingo style numbers:
 
-```{ "B14", "B12", "B5", "B6", "B3", "I28", "I27", ... }```
+```
+{ "B14", "B12", "B5", "B6", "B3", "I28", "I27", ... }
+```
 
 The numbers must be in the order of their column: B, I, N, G, O. Within the columns the order of the numbers is random.
 
