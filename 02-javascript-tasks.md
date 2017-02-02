@@ -18,7 +18,7 @@ The rules for a valid password are as follows:
 
 For example:
 
-```
+```javascript
 password("Abcd1234") // -> true
 password("Abcd123") // -> false
 password("abcd1234") // -> false
@@ -41,7 +41,7 @@ Create a piece of code named Car which takes model, register number and color as
  changed. Color property is mutable and can be changed directly or through .paint() method,
  which takes new color value as an argument.
 
-```
+```javascript
 var car = new Car('Audi', 'ASD-123', 'green')
   
 // then
@@ -79,7 +79,7 @@ Array.sum() returns the sum of all numbers in the array.
 
 For example:
 
-```
+```javascript
 Array.range(0, 3) // -> [0, 1, 2]
 Array.range(5, 5) // -> [5, 6, 7, 8, 9]
 [0, 1, 2].sum() // -> 3
