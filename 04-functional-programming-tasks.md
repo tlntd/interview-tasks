@@ -1,4 +1,4 @@
-## Object Oriented Programming Tasks
+## Functional Programming Tasks
 
 You can use language of your choice to solve these tasks, but solve the 
 problems using functional programming approach. Try to use best programming practices 
@@ -23,4 +23,13 @@ multiplyAll([1, 2, 3])(3) // -> [3, 6, 9]
 
 ### Problem 2
 
+Create a function flattenArray/flatten_array which takes a list as a parameter. That list can 
+contain multiple nested lists and returns a single list containing all the
+element expect nil/null values.
 
+For example:
+
+```
+const arr = [[1, 2, 3, [4, 5, [6]]], [null], [7, 8], [9, [10, null]]]
+flattenArray(arr) // -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
