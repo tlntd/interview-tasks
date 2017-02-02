@@ -14,16 +14,16 @@ should be created.
 
 Define these methods:
 
-```
-`getWidth()` return the width of the `Block`
-`getLength()` return the length of the `Block`
-`getHeight()` return the height of the `Block`
-`getVolume()` return the volume of the `Block`
-`getSurfaceArea()` return the surface area of the `Block`
+```java
+Block.getWidth() return the width of the `Block`
+Block.getLength() return the length of the `Block`
+Block.getHeight() return the height of the `Block`
+Block.getVolume() return the volume of the `Block`
+Block.getSurfaceArea() return the surface area of the `Block`
 ```
 
 For Example:
-```
+```java
 Block b = new Block(new int[]{2,4,6})
   
 b.getWidth() // -> 2
@@ -37,7 +37,7 @@ b.getSurfaceArea() // -> 88
 
 Automate bingo card creation by creating an object with a method:
 
-```
+```java
 BingoCard.getCard()
 ```
 
@@ -50,7 +50,7 @@ A Bingo card contains 24 unique and random numbers according to this scheme:
 
 The card must be returned as an array of Bingo style numbers:
 
-```
+```java
 { "B14", "B12", "B5", "B6", "B3", "I28", "I27", ... }
 ```
 
