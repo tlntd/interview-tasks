@@ -15,7 +15,7 @@ from the first array multiplied by the integer.
 
 For example:
 
-```
+```javascript
 multiplyAll([1, 2, 3])(2) // -> [2, 4, 6]
 multiplyAll([1, 2, 3])(3) // -> [3, 6, 9]
 ```
@@ -29,7 +29,7 @@ element expect nil/null values.
 
 For example:
 
-```
+```javascript
 const arr = [[1, 2, 3, [4, 5, [6]]], [null], [7, 8], [9, [10, null]]]
 flattenArray(arr) // -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
