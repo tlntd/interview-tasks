@@ -74,7 +74,7 @@ The JavaScript standard includes functional additions to array like map, filter 
 reduce, but sadly is missing the convenience functions range and sum. Implement your 
 version of range and sum methods.
 
-Array.range(start, count) should return an array containing 'count' numbers from 'start' to 'start + count'
+Array.range(start, count) should return an array containing 'count' numbers from 'start' to 'start + count'  
 Array.sum() returns the sum of all numbers in the array.
 
 For example:
