@@ -16,7 +16,7 @@ function should return ```[a, 1, b, 2, c, 3]```.
 
 ### Problem 2
 
-Write a function that computes the list of the first 100 Fibonacci numbers. 
+Write a function that computes the list of the first 50 Fibonacci numbers. 
 By definition, the first two numbers in the Fibonacci sequence are 0 and 1, 
 and each subsequent number is the sum of the previous two. 
 
